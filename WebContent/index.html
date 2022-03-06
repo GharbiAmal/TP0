@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>formulaire d'enregistrement des étudiants</title>
+</head>
+<body style="background-color:#99d6ff;">
+	<h2 align="center"> Formulaire d'enregistrement des étudiants </h2>
+	<form method="get">
+
+		<fieldset>
+			<legend style="background-color: #4db8ff; color: white;"> Coordonnées </legend>
+			
+			<table align="center">
+				<tr>
+					<td>Nom</td>
+					<td><input type="text" placeholder="saisir votre nom"/> </td>
+				</tr>
+				<tr>
+					<td>Prenom</td>
+					<td><input type="text" placeholder="saisir votre prenom"/></td>
+				</tr>
+				<tr>
+					
+					<td>Age</td>
+					<td><input type="text" placeholder="saisir votre age"></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" placeholder="saisir votre Email"/></td>
+				</tr>
+				<tr>
+					
+					<td>Numero de cin</td>
+					<td><input type="text" placeholder="saisir votre N° de cin"></td>
+				</tr>
+				<tr>
+					<td>Sexe</td>
+					
+					<td>
+						Masculin <input type="radio" name="sexe" value="M">
+						Féminin <input type="radio" name="sexe" value="F">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Pays</td>
+					<td>
+						<select>
+						<option>Tunisie</option>
+						<option>Espagne</option>
+						<option>Italie</option>
+					</select>
+				</td>
+				</tr>
+				<tr>
+                    
+					<td>Les langages préferés </td>
+					<td><select>
+						<option>Java script</option>
+						<option>C</option>
+						<option>java</option>
+						<option>PHP</option>
+						<option>HTML</option>
+					</select>  </td>
+				</tr>
+				
+				<tr>
+					<td>Domaines d'actvités</td>
+					<td><input type="checkbox" > Informatique <input type="checkbox" > Gestion <input type="checkbox" > Mécanique
+					<input type="checkbox" > Eléctrique</td>
+				   
+				</tr>
+				<tr>
+					<td colspan="2"><input type="submit" value="Envoyer"/>  <input type="reset" value="Annuler"/></td>
+				</tr>
+			
+			</table>
+		</fieldset>
+</form>
+</body>
+</html>
